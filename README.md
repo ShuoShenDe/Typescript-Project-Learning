@@ -6,19 +6,22 @@
 - `App` in Root, Suppress context menu for the entire app except on inputs & textareas.
 - `provider`: Providers pass data to a subtree.
 - `IDataSourceFactory`: 一列数据 factory
-- `StrictMode`: It activates additional checks and warnings for its descendants.
-- `Promise`: A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason.
+
 
 # Provider
 
-- `PanelCatalogProvider`:
+- `PanelCatalogProvider`: get registed panel info from **@foxglove/studio-base/components/Panel/index** and ExtensionPanels
 
 # Component
 
 - `GlobalCss`: 全局渲染
 
-# React
+# Servce
+- `IdbExtensionLoader`: Will help to find the Customer Extension
 
+# React
+- `StrictMode`: It activates additional checks and warnings for its descendants.
+- `Promise`: A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason.
 - useMemo: Think of memoization as caching a value so that it does not need to be recalculated. This can improve performance.可以通过向其传递一些参数来影响某些函数的执行, React 检查这些参数是否已更改，并且只有在存在差异的情况下才会执行此。传入 - useMemo 的函数会在**渲染期间**执行. useMemo(function，监听参数)
 - useState: 让函数式组件拥有状态管理特性, const [count, setCount] = useState<number>(initial)
 - useEffect: By using this Hook, you tell React that your component needs to do something **after render**. By default, it runs both after the first render and after every update.

@@ -5,7 +5,7 @@
 - Layout:
 - `App` in Root, Suppress context menu for the entire app except on inputs & textareas.
 - `provider`: Providers pass data to a subtree.
-- `IDataSourceFactory`: 一列数据 factory
+- `IDataSourceFactory`: 是其他所有Ros类型的父类factory，有id
 
 
 # Provider
@@ -13,7 +13,7 @@
 - `PanelCatalogProvider`: get registed panel info from **@foxglove/studio-base/components/Panel/index** and ExtensionPanels
 
 # Component
-
+- `PlayerManager`：管理数据，判断数据类型，loading data
 - `GlobalCss`: 全局渲染
 
 # Servce

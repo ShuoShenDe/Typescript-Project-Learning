@@ -13,7 +13,7 @@
 - `PanelCatalogProvider`: get registed panel info from **@foxglove/studio-base/components/Panel/index** and ExtensionPanels
 
 # Component
-- `PlayerManager`：管理数据，判断数据类型，loading data
+- `PlayerManager`：管理数据，判断数据类型，loading data, return <PlayerSelectionContext.Provider> and <MessagePipelineProvider>
 - `GlobalCss`: 全局渲染
 
 # Servce

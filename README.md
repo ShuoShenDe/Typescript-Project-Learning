@@ -25,6 +25,8 @@
 - useMemo: Think of memoization as caching a value so that it does not need to be recalculated. This can improve performance.可以通过向其传递一些参数来影响某些函数的执行, React 检查这些参数是否已更改，并且只有在存在差异的情况下才会执行此。传入 - useMemo 的函数会在**渲染期间**执行. useMemo(function，监听参数)
 - useState: 让函数式组件拥有状态管理特性, const [count, setCount] = useState<number>(initial)
 - useEffect: By using this Hook, you tell React that your component needs to do something **after render**. By default, it runs both after the first render and after every update.
+- useCallback: useCallback is a React Hook that lets you cache a function definition between re-renders.
+
 
   ```
   useEffect(() => {

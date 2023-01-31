@@ -23,12 +23,12 @@ This project is for learning (Studio)[https://github.com/foxglove/studio], it in
 
 # Players
    ```Chain of references
-   LocalDataSourceFactory[DataSources]--> IterablePlayer
+      LocalDataSourceFactory[DataSources]--> IterablePlayer
                                           ├──> IterableSource
                                           ├──> IteratorResult
                                           └──> BufferedIterableSource(IIterableSource)-->CachingIterableSource
-                                           
-   ```SocketDataSourceFactory[DataSources]--> Player
+      SocketDataSourceFactory[DataSources]--> Player                               
+   ```
 # React
 - `StrictMode`: It activates additional checks and warnings for its descendants.
 - `Promise`: A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason.

@@ -21,7 +21,7 @@ Then save and exit!
 
 # NetwrokError
 
-![networkerror](./pic/NetworkError.png)
+![image](https://user-images.githubusercontent.com/31400000/216576194-c230f757-4b69-4416-af8c-c654d0db29df.png)
 
 # Project info
 

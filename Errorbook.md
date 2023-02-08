@@ -24,7 +24,7 @@ node_modules/@types/react/index"' has no default export
 That happens because babel (the one that you were using before) assumes modules.export as default export while typescript (the one that you are using now) does not.
 
 You can use this syntax by simply adding "allowSyntheticDefaultImports": true and "esModuleInterop":true to your tsconfig.json
-
+```
 {
   ...
   "compilerOptions": {
@@ -33,7 +33,7 @@ You can use this syntax by simply adding "allowSyntheticDefaultImports": true an
   },
   ...
 }
-
+```
 # NetwrokError
 
 ![image](https://user-images.githubusercontent.com/31400000/216576194-c230f757-4b69-4416-af8c-c654d0db29df.png)
